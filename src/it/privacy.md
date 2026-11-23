@@ -19,7 +19,7 @@ Questa informativa spiega quali dati personali vengono trattati quando visiti il
 
 {% if site.controller.name %}
 {{ site.controller.name }}<br>
-{% if site.controller.address %}{{ site.controller.address }}<br>
+{% if site.controller.address %}{{ site.controller.address }}, Italia<br>
 {% endif %}Email: [{{ site.email }}](mailto:{{ site.email }})
 {% else %}
 **[Nome e indirizzo del titolare del trattamento — da completare prima della pubblicazione]**<br>

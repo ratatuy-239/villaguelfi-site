@@ -3,104 +3,180 @@
     "slug": "torretta",
     "name": "Toretta",
     "photos": 30,
-    "price": "90-140",
+    "price": "90–140",
     "bookUrl": "https://www.airbnb.it/h/villaguelfi-torretta",
     "bookOn": "Airbnb",
     "regNumber": "IT050008C2CLZ7XGCO",
     "en": {
-      "guests": "1-2 persons",
-      "features": ["1 queen size bed", "1 couch", "Fully-equipped kitchen", "Relax zone outside", "Bath products and towels", "Billiard and the door to the pool"],
-      "note": "! Just the ground floor is available"
+      "guests": "1–2 guests",
+      "features": [
+        "1 queen-size bed",
+        "1 couch",
+        "Fully equipped kitchen",
+        "Outdoor lounge area",
+        "Toiletries and towels",
+        "Billiard table and direct access to the pool"
+      ],
+      "note": "Note: only the ground floor is available"
     },
     "it": {
-      "guests": "1-2 persone",
-      "features": ["1 letto matrimoniale", "1 divano", "Cucina completamente attrezzata", "Zona relax all'esterno", "Prodotti da bagno e asciugamani", "Biliardo e porta alla piscina"],
-      "note": "! È disponibile solo il piano terra"
+      "guests": "1–2 ospiti",
+      "features": [
+        "1 letto matrimoniale",
+        "1 divano",
+        "Cucina completamente attrezzata",
+        "Zona relax esterna",
+        "Prodotti da bagno e asciugamani",
+        "Biliardo e accesso diretto alla piscina"
+      ],
+      "note": "Nota: è disponibile solo il piano terra"
     }
   },
   {
     "slug": "fiordaliso",
     "name": "Fiordaliso",
     "photos": 19,
-    "price": "80-100",
+    "price": "80–100",
     "bookUrl": "https://www.airbnb.it/h/guelfifiordaliso",
     "bookOn": "Airbnb",
     "regNumber": "IT050008C2Y2E7BR53",
     "en": {
-      "guests": "1-2 persons",
-      "features": ["One Queen size bed", "Fully-equipped kitchen", "BBQ and relax zone outside", "Bath products and towels"]
+      "guests": "1–2 guests",
+      "features": [
+        "1 queen-size bed",
+        "Fully equipped kitchen",
+        "BBQ and outdoor lounge area",
+        "Toiletries and towels"
+      ]
     },
     "it": {
-      "guests": "1-2 persone",
-      "features": ["Un letto matrimoniale", "Cucina completamente attrezzata", "BBQ e zona relax all'esterno", "Prodotti da bagno e asciugamani"]
+      "guests": "1–2 ospiti",
+      "features": [
+        "1 letto matrimoniale",
+        "Cucina completamente attrezzata",
+        "Barbecue e zona relax esterna",
+        "Prodotti da bagno e asciugamani"
+      ]
     }
   },
   {
     "slug": "ginestra",
     "name": "Ginestra",
     "photos": 27,
-    "price": "100-150",
+    "price": "100–150",
     "bookUrl": "https://www.airbnb.it/h/villaguelfi-ginestra",
     "bookOn": "Airbnb",
     "regNumber": "IT050008C2Y2E7BR53",
     "en": {
-      "guests": "2-5 persons",
-      "features": ["1 queen size bed", "2 single beds", "1 couch that becomes a bed", "Fully-equipped kitchen", "BBQ and relax zone outside", "Bath products and towels"]
+      "guests": "2–5 guests",
+      "features": [
+        "1 queen-size bed",
+        "2 single beds",
+        "1 sofa bed",
+        "Fully equipped kitchen",
+        "BBQ and outdoor lounge area",
+        "Toiletries and towels"
+      ]
     },
     "it": {
-      "guests": "2-5 persone",
-      "features": ["1 letto queen size", "2 letti singoli", "1 divano che diventa letto", "Cucina completamente attrezzata", "BBQ e zona relax all'esterno", "Prodotti da bagno e asciugamani"]
+      "guests": "2–5 ospiti",
+      "features": [
+        "1 letto matrimoniale",
+        "2 letti singoli",
+        "1 divano letto",
+        "Cucina completamente attrezzata",
+        "Barbecue e zona relax esterna",
+        "Prodotti da bagno e asciugamani"
+      ]
     }
   },
   {
     "slug": "tuliposa",
     "name": "Tuliposa",
     "photos": 25,
-    "price": "90-120",
+    "price": "90–120",
     "bookUrl": "https://www.airbnb.it/h/villaguelfi-tuliposa",
     "bookOn": "Airbnb",
     "regNumber": "IT050008C2Y2E7BR53",
     "en": {
-      "guests": "2-4 persons",
-      "features": ["The apartment is easily divided into two:", "2 queen size beds", "1 single bed", "2 fully-equipped kitchens", "2 BBQ and relax zone outside", "2 separate bathrooms"]
+      "guests": "2–4 guests",
+      "features": [
+        "The apartment can be split into two:",
+        "2 queen-size beds",
+        "1 single bed",
+        "2 fully equipped kitchens",
+        "2 BBQs and outdoor lounge areas",
+        "2 separate bathrooms"
+      ]
     },
     "it": {
-      "guests": "2-4 persone",
-      "features": ["L'appartamento è facilmente divisibile in due:", "2 letti queen size", "1 letto singolo", "2 cucine completamente attrezzate", "2 barbecue e zona relax all'esterno", "2 bagni separati"]
+      "guests": "2–4 ospiti",
+      "features": [
+        "L'appartamento è facilmente divisibile in due:",
+        "2 letti matrimoniali",
+        "1 letto singolo",
+        "2 cucine completamente attrezzate",
+        "2 barbecue e zone relax esterne",
+        "2 bagni separati"
+      ]
     }
   },
   {
     "slug": "violetta",
     "name": "Violetta",
     "photos": 19,
-    "price": "120-150",
+    "price": "120–150",
     "bookUrl": "https://www.booking.com/Share-h93Yrjh",
     "bookOn": "Booking",
     "regNumber": "IT050008C2CLZ7XGCO",
     "en": {
-      "guests": "2-3 persons",
-      "features": ["1 queen size bed", "1 single bed", "Fully-equipped kitchen", "BBQ and relax zone outside", "Bath products and towels"]
+      "guests": "2–3 guests",
+      "features": [
+        "1 queen-size bed",
+        "1 single bed",
+        "Fully equipped kitchen",
+        "BBQ and outdoor lounge area",
+        "Toiletries and towels"
+      ]
     },
     "it": {
-      "guests": "2-3 persone",
-      "features": ["1 letto queen size", "1 letto singolo", "Cucina completamente attrezzata", "BBQ e zona relax all'esterno", "Prodotti da bagno e asciugamani"]
+      "guests": "2–3 ospiti",
+      "features": [
+        "1 letto matrimoniale",
+        "1 letto singolo",
+        "Cucina completamente attrezzata",
+        "Barbecue e zona relax esterna",
+        "Prodotti da bagno e asciugamani"
+      ]
     }
   },
   {
     "slug": "iris",
     "name": "Iris",
     "photos": 19,
-    "price": "80-140",
+    "price": "80–140",
     "bookUrl": "https://www.airbnb.it/h/villaguelfi-iris",
     "bookOn": "Airbnb",
     "regNumber": "IT050008C2Y2E7BR53",
     "en": {
-      "guests": "1-3 persons",
-      "features": ["1 queen size bed", "1 single bed", "Fully-equipped kitchen", "BBQ and relax zone outside", "Bath products and towels"]
+      "guests": "1–3 guests",
+      "features": [
+        "1 queen-size bed",
+        "1 single bed",
+        "Fully equipped kitchen",
+        "BBQ and outdoor lounge area",
+        "Toiletries and towels"
+      ]
     },
     "it": {
-      "guests": "1-3 persone",
-      "features": ["1 letto queen size", "1 letto singolo", "Cucina completamente attrezzata", "BBQ e zona relax all'esterno", "Prodotti da bagno e asciugamani"]
+      "guests": "1–3 ospiti",
+      "features": [
+        "1 letto matrimoniale",
+        "1 letto singolo",
+        "Cucina completamente attrezzata",
+        "Barbecue e zona relax esterna",
+        "Prodotti da bagno e asciugamani"
+      ]
     }
   }
 ]
