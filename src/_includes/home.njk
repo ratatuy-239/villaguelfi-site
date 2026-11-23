@@ -54,7 +54,7 @@ alternates:
     <div class="apt__info">
       <h3>{{ a.name }}</h3>
       <p class="apt__guests">{{ at.guests }}</p>
-      <p class="apt__price">€{{ a.price }}</p>
+      <p class="apt__price">€{{ a.price }} <span>{{ t.perNight }}</span></p>
       <a class="btn" href="{{ a.bookUrl }}" target="_blank" rel="noopener">{{ t.book }} {{ a.bookOn }}</a>
       <ul class="apt__features">
         {%- for f in at.features %}

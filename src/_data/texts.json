@@ -17,12 +17,12 @@
     "about": {
       "uptitle": "About us",
       "title": "From a cookie factory<br>to a splendid resort",
-      "text": "The whole estate was once a 19th-century cookie factory, and you can still see its old buildings all around. The houses sit in the garden, surrounded by trees and flowers. Each house has its own private green space, and a saltwater pool is open to all guests. You get a fully equipped home, a BBQ, lounge areas, and green space to relax in. Don't worry about mosquitoes: the park has a mosquito control system. And our apartments run entirely on solar power."
+      "text": "The whole estate was once a 19th-century cookie factory, and you can still see its old buildings all around. The houses sit in the garden, surrounded by trees and flowers. Each house has its own private green space, and a saltwater pool is open to all guests. You get a fully equipped home, a BBQ, lounge areas, and green space to relax in. To keep mosquitoes at bay, the park has a mosquito control system, though a repellent still comes in handy in the evenings. Our apartments run entirely on solar power."
     },
     "houses": {
       "title": "Our houses",
       "text": "Our houses have Wi-Fi, comfortable beds, and fully equipped kitchens.",
-      "note": "We charge an extra 50 euros for cleaning."
+      "note": "We charge a one-time cleaning fee of 50 euros per stay."
     },
     "book": "Book on",
     "regLabel": "Registration number",
@@ -114,7 +114,8 @@
       "accept": "Accept",
       "decline": "Decline",
       "more": "Privacy & Cookies"
-    }
+    },
+    "perNight": "per night"
   },
   "it": {
     "htmlLang": "it",
@@ -134,12 +135,12 @@
     "about": {
       "uptitle": "Chi siamo",
       "title": "Da biscottificio<br>a splendido resort",
-      "text": "L'intera tenuta era un tempo un biscottificio dell'Ottocento, e i suoi vecchi edifici si vedono ancora ovunque. Le case sono immerse nel giardino, circondate da alberi e fiori. Ogni casa ha il suo spazio verde privato, e una piscina di acqua salata è a disposizione di tutti gli ospiti. Troverete case completamente attrezzate, barbecue, zone relax e spazi verdi per riposarvi. Non preoccupatevi delle zanzare: il parco è dotato di un sistema antizanzare. E i nostri appartamenti sono alimentati interamente a energia solare."
+      "text": "L'intera tenuta era un tempo un biscottificio dell'Ottocento, e i suoi vecchi edifici si vedono ancora ovunque. Le case sono immerse nel giardino, circondate da alberi e fiori. Ogni casa ha il suo spazio verde privato, e una piscina di acqua salata è a disposizione di tutti gli ospiti. Troverà case completamente attrezzate, barbecue, zone relax e spazi verdi per riposarsi. Per tenere lontane le zanzare il parco è dotato di un sistema antizanzare; la sera, però, un repellente può comunque essere utile. I nostri appartamenti sono alimentati interamente a energia solare."
     },
     "houses": {
       "title": "Le nostre case",
       "text": "Tutte le nostre case sono dotate di Wi-Fi, letti confortevoli e cucine completamente attrezzate.",
-      "note": "Per la pulizia chiediamo un supplemento di 50 euro."
+      "note": "Per la pulizia chiediamo un supplemento di 50 euro, una sola volta per soggiorno."
     },
     "book": "Prenota su",
     "regLabel": "Numero di registrazione",
@@ -152,7 +153,7 @@
       "items": [
         {
           "title": "Trasporti",
-          "text": "Davanti alla casa c'è una fermata dell'autobus e, se venite in auto, il parcheggio è gratuito. Pisa è a 15 minuti in auto o 25 in autobus, e da lì si raggiungono facilmente Firenze e le altre città della Toscana."
+          "text": "Davanti alla casa c'è una fermata dell'autobus e, se viene in auto, il parcheggio è gratuito. Pisa è a 15 minuti in auto o 25 in autobus, e da lì si raggiungono facilmente Firenze e le altre città della Toscana."
         },
         {
           "title": "Negozi",
@@ -160,7 +161,7 @@
         },
         {
           "title": "Ristoranti e bar",
-          "text": "Nelle vicinanze ci sono molti bar e ristoranti. Mangiate una pizza in una pizzeria della zona, provate una cena a chilometro zero in un agriturismo o andate al mare a vedere il tramonto."
+          "text": "Nelle vicinanze ci sono molti bar e ristoranti. Mangi una pizza in una pizzeria della zona, provi una cena a chilometro zero in un agriturismo o vada al mare a vedere il tramonto."
         }
       ],
       "mapTitle": "Villa Guelfi su Google Maps",
@@ -169,7 +170,7 @@
       "mapOpen": "Apri in Google Maps"
     },
     "features": {
-      "title": "La vostra piccola casa lontano da casa",
+      "title": "La Sua piccola casa lontano da casa",
       "items": [
         {
           "title": "Piscina",
@@ -181,15 +182,15 @@
         },
         {
           "title": "Barbecue",
-          "text": "In ogni casa trovate un barbecue moderno e un piccolo kit per cucinare."
+          "text": "In ogni casa troverà un barbecue moderno e un piccolo kit per cucinare."
         },
         {
           "title": "Grande giardino",
-          "text": "Passeggiate nel giardino e cenate tra gli alberi."
+          "text": "Passeggi nel giardino e ceni tra gli alberi."
         },
         {
           "title": "Animali socievoli",
-          "text": "Abbiamo tre cani e tre gatti, tutti curiosi di conoscere i nuovi ospiti. Potete accarezzarli e giocare con loro ma, per quanto siano irresistibili i loro occhioni, vi chiediamo di non dar loro da mangiare!"
+          "text": "Abbiamo tre cani e tre gatti, tutti curiosi di conoscere i nuovi ospiti. Può accarezzarli e giocare con loro ma, per quanto siano irresistibili i loro occhioni, Le chiediamo di non dar loro da mangiare!"
         }
       ]
     },
@@ -219,18 +220,19 @@
       ]
     },
     "contact": {
-      "title": "Avete domande? Scriveteci!",
+      "title": "Ha domande? Ci scriva!",
       "email": "Email:",
-      "whatsapp": "Scrivete a Irina su WhatsApp"
+      "whatsapp": "Scriva a Irina su WhatsApp"
     },
     "footer": {
       "privacy": "Privacy e cookie"
     },
     "cookies": {
-      "text": "Usiamo i cookie di Google Analytics per capire come viene utilizzato il sito. Vengono impostati solo con il vostro consenso.",
-      "accept": "Accetta",
-      "decline": "Rifiuta",
+      "text": "Usiamo i cookie di Google Analytics per capire come viene utilizzato il sito. Vengono impostati solo con il Suo consenso.",
+      "accept": "Accetto",
+      "decline": "Rifiuto",
       "more": "Privacy e cookie"
-    }
+    },
+    "perNight": "a notte"
   }
 }

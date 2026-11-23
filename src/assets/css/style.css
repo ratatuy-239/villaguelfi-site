@@ -314,6 +314,11 @@ section > h2 {
   font-size: 20px;
   margin: 22px 0 18px;
 }
+.apt__price span {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--grey);
+}
 .apt__features {
   margin-top: 28px;
   font-size: 16px;
