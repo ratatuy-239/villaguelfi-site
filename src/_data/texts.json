@@ -1,0 +1,128 @@
+{
+  "en": {
+    "htmlLang": "en",
+    "home": "/",
+    "title": "Villa Guelfi",
+    "description": "Italian villa in a heart of Tuscany",
+    "menu": { "about": "About us", "houses": "Our rooms", "features": "What do you get", "contact": "Book your stay" },
+    "hero": { "uptitle": "Italian villa in a heart of Tuscany", "title": "Villa Guelfi" },
+    "about": {
+      "uptitle": "About us",
+      "title": "From cookies factory<br>to a splendid resort",
+      "text": "The entire territory was once a 19th-century cookie factory; you can still see the remaining old buildings everywhere. The houses are nestled in the garden, surrounded by trees and flowers. Each house has its own private green space, and a saltwater pool is available for all guests to enjoy. Our property provides fully equipped homes, a BBQ, lounge zones, and green space for relaxation. Don't worry about pesky mosquitoes because the park is equipped with a mosquito-pest control ecosystem, and to minimize our carbon footprint, our apartments are fully solar-powered."
+    },
+    "houses": {
+      "title": "Our houses",
+      "text": "Our houses have Wi-Fi, comfortable beds, and fully functional kitchens.",
+      "note": "We ask you to pay 50 euros extra for cleaning."
+    },
+    "book": "Book",
+    "regLabel": "Numero di registrazione",
+    "photoOf": "photo",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "close": "Close",
+    "around": {
+      "title": "Everything is just around the corner",
+      "items": [
+        { "title": "Transport", "text": "There is a bus stop in front of the house. If you have a car, we offer free parking. It takes 15 minutes to reach Pisa by car or 25 minutes by bus. From Pisa, it's easy to travel to Florence or any other city in Tuscany." },
+        { "title": "Shops", "text": "If you ever need to buy anything, there is a Penny shop within a 5-minute walk from the house. Additionally, the local market opens every Tuesday and Thursday in the center of Cascina, providing the perfect opportunity to find small souvenirs or fresh local fruits and vegetables." },
+        { "title": "Restaurants and bars", "text": "There are numerous bars and restaurants nearby. Enjoy mouthwatering pizza at a local eatery, savor a farm-to-table dinner at a nearby agrotourism spot, or witness a breathtaking sunset by heading to the seaside. Your culinary adventures start here." }
+      ],
+      "mapTitle": "Villa Guelfi on Google Maps",
+      "mapShow": "Show the map",
+      "mapNote": "The map is loaded from Google.",
+      "mapOpen": "Open in Google Maps"
+    },
+    "features": {
+      "title": "Your small home away from home",
+      "items": [
+        { "title": "Swimming pool", "text": "A big pool with salty water is available to all guests. It is located in the middle of the garden." },
+        { "title": "Outside zone", "text": "Every house is equipped with a comfortable outside zone for relaxing and sunbathing." },
+        { "title": "BBQ", "text": "You can find a modern BBQ-system and small kits for cooking inside of your house." },
+        { "title": "Big garden", "text": "You can walk around the garden and have a splendid dinner in the middle of the forest." },
+        { "title": "Friendly animals", "text": "We have three dogs and three cats, and they are all naturally curious about new guests. You're more than welcome to pet and play with them, but no matter how irresistible their puppy eyes may be — do not feed them!" }
+      ]
+    },
+    "reviews": {
+      "title": "That's what people say about us",
+      "items": [
+        { "text": "We had a wonderful stay! The most beautiful garden and pool area and our villa was lovely. We especially enjoyed the outside area where we could have a BBQ in the evenings. Would definitely recommend it! Thank you!", "name": "Joanne", "stay": "Stayed in Iris" },
+        { "text": "Lovely garden and swimming pool. My family and I (two children aged 5 and 8) had a pleasant stay. Very central to all the beautiful cities. Unfortunately for us, it was really hot, so we didn’t see so much. This means we have to come back to beautiful Tuscany. The hosts were very nice and polite. We recommend this place!", "name": "Karin", "stay": "Stayed in Tulips" },
+        { "text": "An idyllic set-up with a large lush green garden and the most amazing saltwater swimming pool that always stays at an ambient temperature. The location means a car will be required. Enrico and his family are super helpful. The apartment we stayed in did get hot and the aircon did not get to all the spaces. However, I would recommend staying here.", "name": "Neer", "stay": "Stayed in Ginestra" },
+        { "text": "We loved our stay at Enricos and his mother's place. We were welcomed by Enrico's mother and throughout our stay the whole family were always sweet and welcoming. Beautiful surroundings and is a perfect place to relax. We didn't have a car, but the supermarket was very near and the bus to Pisa went every 20 minutes almost outside the door. We would recommend for other guests to bring or buy something for the mosquitoes, as they come sneaking in the evening. Otherwise, we would love to come back soon!", "name": "Johanne", "stay": "Stayed in Fiordaliso" }
+      ]
+    },
+    "contact": { "title": "Need to clear something up? Write to us!", "email": "E-mail:", "whatsapp": "WhatsApp to Irina" },
+    "footer": { "privacy": "Privacy & Cookies" },
+    "cookies": {
+      "text": "We use Google Analytics cookies to understand how the site is used. They are set only if you agree.",
+      "accept": "Accept",
+      "decline": "Decline",
+      "more": "Privacy & Cookies"
+    }
+  },
+  "it": {
+    "htmlLang": "it",
+    "home": "/it/",
+    "title": "Villa Guelfi",
+    "description": "Villa italiana nel cuore della Toscana",
+    "menu": { "about": "Chi siamo", "houses": "Nostre case", "features": "Per te", "contact": "Prenota subito" },
+    "hero": { "uptitle": "Villa italiana nel cuore della Toscana", "title": "Villa Guelfi" },
+    "about": {
+      "uptitle": "Chi siamo",
+      "title": "Da fabbrica di biscotti a uno splendido resort",
+      "text": "L'intero territorio era un tempo una fabbrica di biscotti del XIX secolo; i vecchi edifici rimasti sono ancora visibili ovunque. Le case sono immerse nel giardino, circondate da alberi e fiori. Ogni casa ha il suo spazio verde privato e tutti gli ospiti possono godere di una piscina di acqua salata. La nostra struttura offre case completamente attrezzate, un BBQ, zone lounge e spazi verdi per il relax. Non preoccupatevi delle fastidiose zanzare perché il parco è dotato di un ecosistema di controllo delle zanzare e, per ridurre al minimo l'impronta di carbonio, i nostri appartamenti sono completamente alimentati a energia solare."
+    },
+    "houses": {
+      "title": "Le nostre case",
+      "text": "Tutte le nostre case sono dotate di Wi-Fi, letti confortevoli e cucine completamente funzionali.",
+      "note": "Chiediamo 50 euro extra per la pulizia."
+    },
+    "book": "Prenota",
+    "regLabel": "Numero di registrazione",
+    "photoOf": "foto",
+    "prev": "Foto precedente",
+    "next": "Foto successiva",
+    "close": "Chiudi",
+    "around": {
+      "title": "Tutto è dietro l'angolo",
+      "items": [
+        { "title": "Trasporto", "text": "Davanti alla casa c'è una fermata dell'autobus. Se avete un'auto, offriamo un parcheggio gratuito. Per raggiungere Pisa ci vogliono 15 minuti in auto o 25 minuti in autobus. Da Pisa è facile raggiungere Firenze o qualsiasi altra città della Toscana." },
+        { "title": "Negozi", "text": "Se avete bisogno di comprare qualcosa, c'è un negozio Penny a 5 minuti a piedi dalla casa. Inoltre, il mercato locale apre ogni martedì e giovedì nel centro di Cascina, offrendo l'opportunità perfetta per trovare piccoli souvenir o frutta e verdura fresca locale." },
+        { "title": "Ristoranti e bar", "text": "Nelle vicinanze si trovano numerosi bar e ristoranti. Gustate una pizza appetitosa in un ristorante locale, assaporate una cena a base di prodotti agricoli in un agriturismo nelle vicinanze o assistete a un tramonto mozzafiato recandovi in riva al mare. Le vostre avventure culinarie iniziano qui." }
+      ],
+      "mapTitle": "Villa Guelfi su Google Maps",
+      "mapShow": "Mostra la mappa",
+      "mapNote": "La mappa viene caricata da Google.",
+      "mapOpen": "Apri in Google Maps"
+    },
+    "features": {
+      "title": "La tua piccola casa lontano da casa",
+      "items": [
+        { "title": "Piscina", "text": "Una grande piscina con acqua salata è a disponibile per tutti gli ospiti. Si trova al centro del giardino." },
+        { "title": "Zona esterna", "text": "Ogni casa è dotata di una confortevole zona esterna per rilassarsi e prendere il sole." },
+        { "title": "BBQ", "text": "È possibile trovare un moderno sistema di barbecue e piccoli kit per cucinare all'interno della casa." },
+        { "title": "Grande giardino", "text": "Si può passeggiare nel giardino e gustare una splendida cena in mezzo alla foresta." },
+        { "title": "Animali amichevoli", "text": "Abbiamo 3 cani e 3 gatti e tutti sono naturalmente curiosi nei confronti dei nuovi ospiti. Siete più che benvenuti ad accarezzarli e a giocare con loro, ma per quanto irresistibili possano essere i loro occhi da cucciolo, non dategli da mangiare!" }
+      ]
+    },
+    "reviews": {
+      "title": "Ecco cosa dicono di noi",
+      "items": [
+        { "text": "Abbiamo trascorso un soggiorno meraviglioso! Il giardino e la piscina più belli e la nostra villa era incantevole. Abbiamo particolarmente apprezzato l'area esterna dove abbiamo potuto fare un barbecue la sera. Lo raccomandiamo sicuramente! Grazie!", "name": "Joanne", "stay": "Soggiornato a Iris" },
+        { "text": "Giardino e piscina incantevoli. Io e la mia famiglia (due bambini di 5 e 8 anni) abbiamo trascorso un piacevole soggiorno. Molto centrale per tutte le belle città. Purtroppo per noi faceva molto caldo, quindi non abbiamo visto molto. Questo significa che dovremo tornare nella bellissima Toscana. I padroni di casa sono stati molto gentili ed educati. Consigliamo questo posto!", "name": "Karin", "stay": "Soggiornato a Tuliposa" },
+        { "text": "Un ambiente idilliaco con un grande giardino verdeggiante e la più incredibile piscina di acqua salata che rimane sempre a temperatura ambiente. La posizione richiede un'auto. Enrico e la sua famiglia sono super disponibili. L'appartamento in cui abbiamo soggiornato si è surriscaldato e l'aria condizionata non è arrivata in tutti gli spazi. Tuttavia, consiglio di soggiornare qui.", "name": "Neer", "stay": "Soggiornato a Ginestra" },
+        { "text": "Abbiamo apprezzato molto il nostro soggiorno a casa di Enricos e sua madre. Siamo stati accolti dalla madre di Enrico e durante il nostro soggiorno tutta la famiglia è stata sempre dolce e accogliente. I dintorni sono bellissimi ed è un posto perfetto per rilassarsi. Non avevamo la macchina, ma il supermercato era molto vicino e l'autobus per Pisa passava ogni 20 minuti quasi fuori dalla porta. Consigliamo agli altri ospiti di portare o comprare qualcosa per le zanzare, perché arrivano di nascosto la sera. Per il resto, ci piacerebbe tornare presto!", "name": "Johanne", "stay": "Soggiornato a Fiordaliso" }
+      ]
+    },
+    "contact": { "title": "Scrivici!", "email": "E-mail:", "whatsapp": "WhatsApp (Irina)" },
+    "footer": { "privacy": "Privacy e cookie" },
+    "cookies": {
+      "text": "Usiamo i cookie di Google Analytics per capire come viene utilizzato il sito. Vengono impostati solo con il tuo consenso.",
+      "accept": "Accetta",
+      "decline": "Rifiuta",
+      "more": "Privacy e cookie"
+    }
+  }
+}

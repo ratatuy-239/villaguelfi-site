@@ -1,0 +1,21 @@
+---
+pagination:
+  data: moved
+  size: 1
+  alias: r
+moved:
+  - { from: "lavita", to: "../" }
+  - { from: "lavita/tuscany", to: "../../" }
+permalink: "/{{ r.from }}/index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Villa Guelfi</title>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ r.to }}">
+</head>
+<body><p><a href="{{ r.to }}">Villa Guelfi</a></p></body>
+</html>

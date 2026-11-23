@@ -1,0 +1,16 @@
+{
+  "name": "villaguelfi-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Villa Guelfi website (villaguelfi.com)",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --port 8090"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@fontsource-variable/noto-serif": "^5.0.0",
+    "@fontsource-variable/oswald": "^5.0.0"
+  }
+}

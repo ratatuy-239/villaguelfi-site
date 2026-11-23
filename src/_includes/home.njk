@@ -1,0 +1,137 @@
+---
+layout: base.njk
+bodyClass: home
+alternates:
+  en: /
+  it: /it/
+---
+{%- set t = texts[lang] -%}
+
+<section class="hero">
+  <img class="hero__bg" src="/assets/img/hero/01.jpg" alt="" fetchpriority="high">
+  <div class="hero__text">
+    <p class="uptitle">{{ t.hero.uptitle }}</p>
+    <h1>{{ t.hero.title }}</h1>
+  </div>
+</section>
+
+<section class="about band" id="about">
+  <div class="about__inner">
+    <img class="about__img" src="/assets/img/about/01.jpg" alt="Villa Guelfi" loading="lazy">
+    <div class="about__card">
+      <p class="uptitle">{{ t.about.uptitle }}</p>
+      <h2>{{ t.about.title | safe }}</h2>
+      <p>{{ t.about.text }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="houses" id="houses">
+  <div class="intro">
+    <h2>{{ t.houses.title }}</h2>
+    <p>{{ t.houses.text }}<br><strong>{{ t.houses.note }}</strong></p>
+  </div>
+
+  {%- for a in apartments %}
+  {%- set at = a[lang] %}
+  <article class="apt" id="{{ a.slug }}">
+    <div class="gallery" data-gallery>
+      <div class="gallery__main">
+        <button type="button" class="arrow arrow--prev" data-prev aria-label="{{ t.prev }}"></button>
+        <a href="/assets/img/{{ a.slug }}/01.jpg" data-main-link>
+          <img src="/assets/img/{{ a.slug }}/01.jpg" alt="{{ a.name }} — {{ t.photoOf }} 1" data-main loading="lazy" width="1600" height="1067">
+        </a>
+        <button type="button" class="arrow arrow--next" data-next aria-label="{{ t.next }}"></button>
+      </div>
+      <div class="gallery__thumbs">
+        {%- for i in range(1, a.photos + 1) %}
+        <a href="/assets/img/{{ a.slug }}/{{ i | pad2 }}.jpg" data-thumb {% if i == 1 %}aria-current="true"{% endif %}>
+          <img src="/assets/img/{{ a.slug }}/{{ i | pad2 }}-thumb.jpg" alt="{{ a.name }} — {{ t.photoOf }} {{ i }}" loading="lazy" width="60" height="60">
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="apt__info">
+      <h3>{{ a.name }}</h3>
+      <p class="apt__guests">{{ at.guests }}</p>
+      <p class="apt__price">€{{ a.price }}</p>
+      <a class="btn" href="{{ a.bookUrl }}" target="_blank" rel="noopener">{{ t.book }} {{ a.bookOn }}</a>
+      <ul class="apt__features">
+        {%- for f in at.features %}
+        <li>{{ f }}</li>
+        {%- endfor %}
+      </ul>
+      {%- if at.note %}
+      <p class="apt__note">{{ at.note }}</p>
+      {%- endif %}
+      <p class="apt__reg">{{ t.regLabel }}<br>{{ a.regNumber }}</p>
+    </div>
+  </article>
+  {%- endfor %}
+</section>
+
+<section class="around band">
+  <h2>{{ t.around.title }}</h2>
+  <div class="around__grid">
+    <div class="around__col">
+      <div class="point">
+        <h3>{{ t.around.items[0].title }}</h3>
+        <p>{{ t.around.items[0].text }}</p>
+      </div>
+      <div class="map" data-map="{{ site.mapEmbed }}" data-map-title="{{ t.around.mapTitle }}">
+        <button type="button" class="btn" data-map-show>{{ t.around.mapShow }}</button>
+        <p>{{ t.around.mapNote }} <a href="{{ site.mapLink }}" target="_blank" rel="noopener">{{ t.around.mapOpen }}</a></p>
+      </div>
+    </div>
+    <div class="around__col">
+      <div class="point">
+        <h3>{{ t.around.items[1].title }}</h3>
+        <p>{{ t.around.items[1].text }}</p>
+      </div>
+      <div class="point">
+        <h3>{{ t.around.items[2].title }}</h3>
+        <p>{{ t.around.items[2].text }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <h2>{{ t.features.title }}</h2>
+  <div class="features__grid">
+    {%- for f in t.features.items %}
+    <div class="feature">
+      <img src="/assets/img/features/{{ loop.index | pad2 }}.jpg" alt="" loading="lazy">
+      <div class="feature__text">
+        <h3>{{ f.title }}</h3>
+        <p>{{ f.text }}</p>
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="reviews">
+  <h2>{{ t.reviews.title }}</h2>
+  <ul class="reviews__grid">
+    {%- for r in t.reviews.items %}
+    <li class="review">
+      <blockquote>{{ r.text }}</blockquote>
+      <p class="review__who"><strong>{{ r.name }}</strong><br>{{ r.stay }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="contact band" id="contact">
+  <div class="contact__text">
+    <h2>{{ t.contact.title }}</h2>
+    <p>{{ t.contact.email }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <a class="btn btn--whatsapp" href="{{ site.whatsapp }}" target="_blank" rel="noopener">{{ t.contact.whatsapp }}</a>
+  </div>
+  <div class="contact__photos">
+    {%- for i in [4, 5, 6, 1, 2, 3] %}
+    <img src="/assets/img/contact/{{ i | pad2 }}-thumb.jpg" alt="" loading="lazy">
+    {%- endfor %}
+  </div>
+</section>
