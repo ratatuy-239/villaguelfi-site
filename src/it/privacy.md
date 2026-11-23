@@ -19,8 +19,8 @@ Questa informativa spiega quali dati personali vengono trattati quando visiti il
 
 {% if site.controller.name %}
 {{ site.controller.name }}<br>
-{{ site.controller.address }}<br>
-Email: [{{ site.email }}](mailto:{{ site.email }})
+{% if site.controller.address %}{{ site.controller.address }}<br>
+{% endif %}Email: [{{ site.email }}](mailto:{{ site.email }})
 {% else %}
 **[Nome e indirizzo del titolare del trattamento — da completare prima della pubblicazione]**<br>
 Email: [{{ site.email }}](mailto:{{ site.email }})

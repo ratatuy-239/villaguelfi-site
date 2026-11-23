@@ -19,8 +19,8 @@ This policy explains what personal data is processed when you visit the Villa Gu
 
 {% if site.controller.name %}
 {{ site.controller.name }}<br>
-{{ site.controller.address }}<br>
-Email: [{{ site.email }}](mailto:{{ site.email }})
+{% if site.controller.address %}{{ site.controller.address }}<br>
+{% endif %}Email: [{{ site.email }}](mailto:{{ site.email }})
 {% else %}
 **[Name and address of the data controller — to be completed before launch]**<br>
 Email: [{{ site.email }}](mailto:{{ site.email }})
